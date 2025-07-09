@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function JoinNetwork() {
   return (
-    <div className="flex flex-col md:flex-row justify-between gap-12 items-center md:items-start">
+    <div className="flex flex-col md:flex-row justify-between gap-12 items-center text-center md:text-start md:items-start">
       {/* Left Column */}
       <div className="max-w-lg">
         <h2 className="text-2xl md:text-3xl font-semibold mb-4 border-b-2 border-[#3E3F7D] inline-block">
