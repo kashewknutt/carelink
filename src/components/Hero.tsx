@@ -13,7 +13,7 @@ export default function Hero() {
       />
 
       {/* Overlay Content */}
-      <div className="relative z-10 h-full w-4/5 flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-12">
+      <div className="relative z-10 h-full w-auto md:w-4/5 flex flex-col md:flex-row items-center md:justify-between px-6 md:px-20 py-12 justify-center">
         {/* Left: Text Content */}
         <div className="text-white mt-24 md:mt-0">
           <h1
@@ -33,7 +33,7 @@ export default function Hero() {
         <div className="mt-10 md:mt-0 text-white flex flex-col items-center gap-4">
           <p className="text-lg font-extralight">Download our app</p>
           <div className="flex gap-4">
-            <Image src="/google-play.svg" alt="Google Play" width={140} height={42} />
+            <Image src="/google-play.svg" alt="Google Play" width={160} height={55} />
             <Image src="/app-store.svg" alt="App Store" width={140} height={42} />
           </div>
         </div>

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <header className="absolute top-0 left-0 w-full z-50 px-40 py-8 flex justify-between">
+    <header className="absolute top-0 left-0 w-full z-50 px-6 md:px-40 py-8 flex justify-between">
       {/* Logo */}
       <div className="flex p-0 w-40 h-16 relative">
         <Image src="/logo_with_text.svg" alt="CareLink Logo" fill />

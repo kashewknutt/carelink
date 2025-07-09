@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function JoinNetwork() {
   return (
-    <div className="flex flex-col md:flex-row justify-between gap-12 items-start">
+    <div className="flex flex-col md:flex-row justify-between gap-12 items-center md:items-start">
       {/* Left Column */}
       <div className="max-w-lg">
         <h2 className="text-2xl md:text-3xl font-semibold mb-4 border-b-2 border-[#3E3F7D] inline-block">
@@ -16,10 +16,10 @@ export default function JoinNetwork() {
       </div>
 
       {/* Right Column */}
-      <div className="flex flex-col items-start gap-4">
-        <p className="font-medium text-[#3E3F7D]">Download our partner app</p>
+      <div className="flex flex-col items-center gap-4">
+        <p className="font-light text-[#3E3F7D]">Download our partner app</p>
         <div className="flex gap-4">
-          <Image src="/google-play.svg" alt="Google Play" width={150} height={50} />
+          <Image src="/google-play.svg" alt="Google Play" width={160} height={55} />
           <Image src="/app-store.svg" alt="App Store" width={140} height={42} />
         </div>
       </div>

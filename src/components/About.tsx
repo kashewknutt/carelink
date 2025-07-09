@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="max-w-2xl">
+    <div className="max-w-2xl items-center md:items-start">
       <h2 className="text-2xl md:text-3xl font-semibold mb-4 border-b-2 border-[#3E3F7D] inline-block">
         About Carelink
       </h2>
