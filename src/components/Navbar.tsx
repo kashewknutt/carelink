@@ -11,8 +11,10 @@ export default function Navbar() {
 
       {/* Contact Us Button */}
       <div className="items-center flex">
-      <button className="text-white border border-white rounded-md font-extralight px-6 py-1 duration-300 hover:bg-white hover:text-black transition">
+      <button  className="text-white border border-white rounded-md font-extralight px-6 py-1 duration-300 hover:bg-white hover:text-black transition">
+        <a href="#contact">
         Contact us
+        </a>
       </button>
       </div>
     </header>

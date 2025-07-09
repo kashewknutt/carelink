@@ -23,7 +23,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="max-w-2xl w-full items-center text-center md:text-start md:items-start">
+    <div id="contact" className="max-w-2xl w-full items-center text-center md:text-start md:items-start">
       <h2 className="text-2xl md:text-3xl font-semibold mb-4 border-b-2 border-[#3E3F7D] inline-block">
         Reach Out to Us
       </h2>
