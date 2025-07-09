@@ -23,7 +23,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="max-w-2xl w-full items-center md:items-start">
+    <div className="max-w-2xl w-full items-center text-center md:text-start md:items-start">
       <h2 className="text-2xl md:text-3xl font-semibold mb-4 border-b-2 border-[#3E3F7D] inline-block">
         Reach Out to Us
       </h2>
@@ -49,13 +49,15 @@ export default function ContactForm() {
           required
           className="border border-[#3E3F7D] px-4 py-2 rounded-sm focus:outline-none"
         ></textarea>
-        <button
-          type="submit"
-          className="mt-2 py-2 px-8 bg-[#3E3F7D] text-white rounded-md mx-auto hover:bg-[#2c2d5c] duration-300 shadow-md"
-        >
-          Submit now
-        </button>
-        <p className="mt-2 text-center text-[#3E3F7D]">{result}</p>
+        <div className="relative">
+            <button
+            type="submit"
+            className="mt-2 py-2 px-8 mx-0 w-fit bg-[#3E3F7D] text-white rounded-md hover:bg-[#2c2d5c] duration-300 shadow-md"
+            >
+            Submit now
+            </button>
+            <p className="mt-2 text-[#3E3F7D]">{result}</p>
+        </div>
       </form>
     </div>
   );
