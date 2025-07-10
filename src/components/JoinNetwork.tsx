@@ -6,7 +6,7 @@ export default function JoinNetwork() {
       {/* Left Column */}
       <div className="max-w-lg px-6 md:px-0">
         <h2 className="text-xl md:text-3xl font-semibold mb-4 border-b-2 border-[#3E3F7D] inline-block">
-          Join the Carelink Network Today
+          Join the Curalink Network Today
         </h2>
         <p className="text-sm font-light text-justify md:text-start leading-relaxed text-[#4F4F8C]">
           Sign up on our partner app, set your schedule, and start receiving bookings as a nurse,
